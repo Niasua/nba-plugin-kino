@@ -1,0 +1,10 @@
+{
+    "id": "com.niasua.nba.nativo",
+    "name": "NBA by Niasua",
+    "version": "1.0.0",
+    "description": "Transmisiones en vivo de la NBA",
+    "entry": "plugin.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NBA_logo.svg/2560px-NBA_logo.svg.png",
+    "capabilities": ["home", "resolve"]
+}
+
