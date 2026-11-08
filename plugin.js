@@ -1,28 +1,21 @@
-export async function catalogs() {
-    return [
-        {
-            id: "nba_catalog",
-            title: "Partidos de Hoy",
-            type: "live"
-        }
-    ];
-}
-
-export async function catalog(id, page, filter) {
-    if (id === "nba_catalog") {
-        return {
-            items: [
-                {
-                    id: "lakers_1",
-                    type: "movie",
-                    title: "Lakers vs Celtics",
-                    poster: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
-                    description: "Transmisión en vivo de prueba."
-                }
-            ]
-        };
-    }
-    return { items: [] };
+export async function home() {
+    return {
+        rows: [
+            {
+                title: "Partidos de Hoy",
+                genre: "deportes",
+                items: [
+                    {
+                        id: "lakers_1",
+                        type: "movie",
+                        title: "Lakers vs Celtics",
+                        poster: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
+                        description: "Transmisión en vivo de prueba."
+                    }
+                ]
+            }
+        ]
+    };
 }
 
 export async function resolve(item) {
