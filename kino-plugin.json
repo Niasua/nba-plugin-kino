@@ -3,8 +3,8 @@
   "name": "NBA by Niasua",
   "version": "1.0.0",
   "apiVersion": 14,
-  "description": "Transmisiones en vivo de la NBA",
+  "description": "Plugin nativo para Kino TV desarrollado para transmitir partidos de la NBA en vivo y en directo, diseñado con arquitectura modular de alto rendimiento.",
   "entry": "plugin.js",
   "hosts": ["sample.vodobox.net"],
-  "capabilities": ["home", "catalogs", "resolve"]
+  "capabilities": ["home", "resolve"]
 }
