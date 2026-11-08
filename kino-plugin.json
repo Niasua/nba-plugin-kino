@@ -8,5 +8,3 @@
   "hosts": ["sample.vodobox.net"],
   "capabilities": ["catalog", "resolve"]
 }
-
-
