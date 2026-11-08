@@ -1,0 +1,12 @@
+{
+  "id": "nba-by-niasua",
+  "name": "NBA by Niasua",
+  "version": "1.0.0",
+  "apiVersion": 14,
+  "description": "Transmisiones en vivo de la NBA",
+  "entry": "plugin.js",
+  "hosts": ["sample.vodobox.net"],
+  "capabilities": ["home", "resolve"]
+}
+
+
