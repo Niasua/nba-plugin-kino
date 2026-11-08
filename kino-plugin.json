@@ -1,9 +1,9 @@
 {
-  "id": "nba-by-niasua",
-  "name": "NBA by Niasua",
+  "id": "nba-en-vivo",
+  "name": "NBA en Vivo",
   "version": "1.0.0",
   "apiVersion": 20,
   "description": "Muestra los partidos de la NBA del día y los enlaza con canales en vivo.",
-  "main": "plugin.js",
+  "entry": "plugin.js",
   "icon": "https://example.com/icon.png"
 }
