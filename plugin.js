@@ -6,7 +6,7 @@ export async function home(){
                 items: [
                     {
                         id: "lakers_1",
-                        type: "movie", 
+                        type: "live", 
                         title: "Lakers vs Celtics",
                         poster: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
                         description: "Transmisión en vivo de prueba."
