@@ -1,9 +1,10 @@
 export async function home() {
     return {
-        rows: [
+        catalogs: [
             {
+                id: "nba_catalog",
                 title: "Partidos de Hoy",
-                genre: "deportes",
+                type: "live",
                 items: [
                     {
                         id: "lakers_1",
