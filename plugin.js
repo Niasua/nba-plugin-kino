@@ -3,10 +3,11 @@ export async function home(){
         rows: [
             {
                 title: "Partidos de Hoy",
+                genre: "deportes",
                 items: [
                     {
                         id: "lakers_1",
-                        type: "live", 
+                        type: "movie", 
                         title: "Lakers vs Celtics",
                         poster: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/220px-Los_Angeles_Lakers_logo.svg.png",
                         description: "Transmisión en vivo de prueba."
