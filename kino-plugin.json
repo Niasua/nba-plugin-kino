@@ -5,5 +5,9 @@
   "apiVersion": 20,
   "description": "Muestra los partidos de la NBA del día y los enlaza con canales en vivo.",
   "entry": "plugin.js",
+  "hosts": [
+    "site.api.espn.com",
+    "tu-sitio.com"
+  ],
   "icon": "https://example.com/icon.png"
 }
