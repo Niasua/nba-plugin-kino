@@ -6,7 +6,7 @@
   "description": "Transmisiones en vivo de la NBA",
   "entry": "plugin.js",
   "hosts": ["sample.vodobox.net"],
-  "capabilities": ["home", "resolve"]
+  "capabilities": ["catalog", "resolve"]
 }
 
 
