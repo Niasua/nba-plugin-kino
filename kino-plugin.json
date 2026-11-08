@@ -1,13 +1,10 @@
 {
-  "id": "nba-en-vivo",
-  "name": "NBA en Vivo",
-  "version": "1.0.0",
-  "apiVersion": 20,
-  "description": "Muestra los partidos de la NBA del día y los enlaza con canales en vivo.",
+  "id": "nba-by-niasua",
+  "name": "NBA by Niasua",
+  "version": "1.1.0",
+  "apiVersion": 14,
+  "description": "Marcadores de la NBA, canal de transmisión de cada partido y simulaciones propias. Proyecto no oficial, sin relación con la NBA.",
   "entry": "plugin.js",
-  "hosts": [
-    "site.api.espn.com",
-    "tu-sitio.com"
-  ],
-  "icon": "https://example.com/icon.png"
+  "hosts": ["site.api.espn.com", "raw.githubusercontent.com"],
+  "capabilities": ["screen"]
 }
